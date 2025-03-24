@@ -7,35 +7,35 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/guk624.jpg",
+  "logo": "https://files.catbox.moe/zyv7n7.jpg",
   "repository": "https://github.com/Toputech/turn-meh",
   "succes_url": "/",
   "stack": "container",
   "env": {
     "PREFIX": {
       "description": "Choose your bot's prefix",
-      "value": ".",
+      "value": "*",
       "required": true
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
       "AUTO_REPLY": {
       "description": "This sets a greeting message when someone texts you automatically",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTI_LINK": {
       "description": "This detects and deletelinks sent to a group ",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": trye
     },
     "AUTO_LIKE_STATUS": {
       "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "CHAT_BOT": {
       "description": "If turned on, the chatbot will automatically chat in your private messages or groups.",
@@ -59,29 +59,29 @@
     },
     "TIMEZONE": {
       "description": "add your timezone zone to update time and dates ",
-      "value": "Africa/Arusha",
-      "required": false
+      "value": "Africa/Gweru",
+      "required": true
     },
  
     "GROUP_CONTROL": {
       "description": "urs if you want bot yo control group features such as antilink,antispam,antibad",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "ᗩᒪOᑎE ᗰᗪ",
-      "required": false
+      "value": "Joshuamambo NetKing",
+      "required": true
     },
     "BOT_MENU_LINKS": {
       "description": "Add one or many links for your bot menu (e.g., url1,url2,url3)",
-      "value": "",
-      "required": false
+      "value": "https://files.catbox.moe/zyv7n7.jpg",
+      "required": true
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
@@ -95,12 +95,12 @@
     },
     "SESSION_ID": {
       "description": "Enter your session ID, the code you receive after scanning the QR code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUFiSUJXc2U1MG5Mb2JneFNoK0ZjK2k1aWJFN0o4ZGJmUzMrSDd2dVMwVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieWQ2bDMzeDNhazMycGNVK0ZqRkwzTTY3dkxBdFo4TWxxUEhCN2hBRmhXOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjTzRQVFBtbStPWmEreWlYTjEyN0N4cFMyVitzeTlpenljQlRBK3NMMGtVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjQ0NmWWpZOEE2MCtuYlg5d1p4Q3kvcjNmeUppT2g3T205dy9sSDFQNHlvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZGeG5TSTJXaG00cTBjVGd6ODU5bkg4cUI2T0tOazNwUDE3V2loK1I4SDQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Inlmck5wQTN3cW1IdmxwWUcrOHNRMVpDdW4xZW1ycjJELzhtVVR1endHeG89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidU1JeDAvMVB2Q2hGTytwVkdyQlpUWkFWTGlob2RBQkVMQkVMMWpaZnFtbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibDR1WURvb0lGQkFsakNMZWdSV2lkSHpyVE9lRVhtNVR2TXArQnZmTkQydz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlQ1TmNCaFFQakZIRFpWL3B2K1BvUzloVWNzM2hwOCs2UTB2MVcyQXV2ZjhFVkVKMXNsd0YrMVVFejdJczRzd0h4aC9TVGxHdUJIY0oyOHZCL04xWkRRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTIyLCJhZHZTZWNyZXRLZXkiOiJtamRjS1FsTm9VVlJrelFRRzhOL0dqVSt5d3ZqZVdLakljcC9OWTNXWkdJPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJmR0hiSEdwRFFnYXZ4TjM3NkFILXp3IiwicGhvbmVJZCI6IjhhZmMxMGVkLWRhNzktNDkzMy1hYTYxLWVhYTg0MWU2YTIzMyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVdzVRK3RwaUFzV3J5RjY4bnpOeE84eGlJNjg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQXI3ZFVYV0F5Z2Y1QnFFd2REeHhWRjhWdkI4PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IldXRTY5QUtEIiwibWUiOnsiaWQiOiIyNjM3MTY3MjkyMjI6NDdAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ04yU2grMEJFSUtJaDc4R0dBSWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik5uc0hNbDIvbnpWd0h0bE1sYTN4d1ZPR2ZKVEV6UEovbVBDQlp0WGN6Q2c9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkFka0JGNkdUREtqcm9Eb00xNDFnbzA4U3J4WnVINTNLUW5hMTliWStzSThtT014Q1pMYUNWeUNLVzBBeHg1cXpSKzI5VjU4Rjk4REFBYWlzOW1vaUJBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJtNTV4TnpLQk1IREh4NzBaVEN1OWZNdk5UVFJ0UDFQUGxuWmlLYjlKSFZ1SzYyZjZuV1FlblFpU2JaYzJzNzEyRWhHTkRBRHB5SnBVeWpIZjQxcnRBQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI2MzcxNjcyOTIyMjo0N0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUWjdCekpkdjU4MWNCN1pUSld0OGNGVGhueVV4TXp5ZjVqd2dXYlYzTXdvIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzQyODQ5MDQwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUpTcyJ9,
       "required": true
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "Toputech",
+      "value": "Joshuamambo",
       "required": false
     },
     "AUTOBIO": {
@@ -113,10 +113,10 @@
       "value": "no",
       "required": false  
     },
-    "NUMERO_OWNER": {
+    "NUMBER_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255673750170')",
-      "value": "255673750170",
-      "required": false
+      "value": "263716729222",
+      "required": true
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
@@ -132,11 +132,11 @@
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "false",
       "required": false
     },
     "AUTO_REACTION": {
